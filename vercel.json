@@ -7,9 +7,6 @@
         }
     ],
     "routes": [
-        {
-            "scr": "/(.*)",
-            "dest": "/"
-        }
+        { "source": "/(.*)", "destination": "/app.js" }
     ]
 }
